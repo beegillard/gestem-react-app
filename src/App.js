@@ -1,5 +1,7 @@
 import './App.css';
 import logo from './images/gestem.jpg';
+import './components/Registration.js';
+import Registration from './components/Registration.js';
 
 
 
@@ -9,18 +11,8 @@ function App() {
       <header className="App-header">
         <h1>Save the date: May 16, 2024</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Registration />
     </div>
   );
 }
